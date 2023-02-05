@@ -14,7 +14,7 @@ int main(){
     cout << "Enter number of Packets: " << endl;
     cin >> nop;
 
-    for(int i=1;i<=nop ;i++){
+    for(int i=0;i<=nop ;i++){
         if (curr_size >= qLimit){
             cout << "Congestion detected !!" << endl; 
             min = 0.1*curr_size ;
